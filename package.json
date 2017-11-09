@@ -1,0 +1,29 @@
+{
+  "name": "regret",
+  "version": "1.0.0",
+  "description": "regret mistakes,ones that made me feel sorry",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d libs",
+    "testes6": "babel-node test/testes6",
+    "testes5": "node test/testes5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stormrabbit/regret.git"
+  },
+  "keywords": [
+    "js"
+  ],
+  "author": "leanhardt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stormrabbit/regret/issues"
+  },
+  "homepage": "https://github.com/stormrabbit/regret#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2017": "^6.24.1"
+  }
+}

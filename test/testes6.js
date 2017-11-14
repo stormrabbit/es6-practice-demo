@@ -1,29 +1,21 @@
-// import {
-//   father,
-//   son,
-//   sum,
-//   distict
-// }  from '../src/es6';
+import thisDemo from '../src/thisDemo.js';
+import thisDemoObj from '../src/thisDemoObj.js';
+// // thisDemo();
+thisDemoObj.thisDemo();
 
+// function taskA() {
+//   this.name = 'hello'
 
-// const arr = [1, '1', 2, '2', 3, '3', 4, '4'];
+//   var fn = function() {
+//     console.log(this)
+//     console.log(this.name)
+//   }
 
-// console.log(distict(arr));
-
-// console.log('sum==>', es6.sum(1,2,3,4,5,6,7,8,9,10))
-
-// console.log('fatherAge==>', father.age);
-// father.work();
-// console.log('sonAge==>',son.age);
-// console.log('sonlife==>',son.life);
-// son.work();
-// son.play();
-// console.log(son.age);
-import Test2 from '../src/classTest2';
-
-const t2 = new Test2();
-
-t2.say();
-
-// const t1 = new Test();
-// t1.say()
+//   var arrow_fn = () => {
+//     console.log(this)
+//     console.log(this.name)
+//   }
+//   fn()
+//   arrow_fn()
+// }
+// taskA()

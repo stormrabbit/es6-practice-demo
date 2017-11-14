@@ -26,7 +26,8 @@ function thisDemo() {
   }
 
   c.c1();
-  c.c2();
+  const c3 = c.c2;
+  c3();
 
   const d = () => {
     const d1 = () => console.log('d1==>', this);
@@ -59,4 +60,4 @@ function thisDemo() {
   gC.g2();
 }
 
-thisDemo()
+export default thisDemo;

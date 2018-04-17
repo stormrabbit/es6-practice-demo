@@ -5,8 +5,15 @@
   "main": "index.js",
   "scripts": {
     "build": "babel src -d libs",
-    "testes6": "babel-node test/testes6",
-    "testes5": "node test/testes5"
+    "test": "babel-node test/testes6",
+    "testes5": "node test/testes5",
+    "demo1": "babel-node test/demo1",
+    "demo2": "babel-node test/demo2",
+    "api": "babel-node test/api",
+    "api2": "babel-node test/api2",
+    "mdl": "babel-node test/applyMiddleware",
+    "thunk": "babel-node test/applyThunk",
+    "saga": "babel-node test/applySaga"
   },
   "repository": {
     "type": "git",
@@ -25,6 +32,9 @@
     "babel-cli": "^6.26.0",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-es2017": "^6.24.1",
-    "global": "^4.3.2"
+    "global": "^4.3.2",
+    "redux": "^3.7.2",
+    "redux-saga": "^0.16.0",
+    "redux-thunk": "^2.2.0"
   }
 }

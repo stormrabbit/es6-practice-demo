@@ -6,7 +6,7 @@
   "scripts": {
     "build": "babel src -d libs",
     "start": "babel-node index.js",
-    "testes6": "babel-node test/test",
+    "test": "babel-node test/test",
     "testes5": "node test/testes5"
   },
   "repository": {
